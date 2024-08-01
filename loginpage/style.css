@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue
+}
+
+.login-container {
+    background-color: #4a668f;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+
+.remember-forgot input {
+    margin-right: 5px;
+}
+
+.remember-forgot .forgot-password {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot .forgot-password:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.register a {
+    color: white;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
+.forgot-password:hover{
+    color: lightblue;
+}
