@@ -1,0 +1,162 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0px;
+    padding: 0px;
+    background-color: azure;
+    color: black;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+    display: block;
+
+}
+.banner-text{
+  position: absolute;
+  top: 1px;
+  left: 30px;
+  right: 20px;
+  color: black;
+  text-align: center;
+
+}
+.banner-text h1{
+   font-size: 4em;
+
+}
+.banner-text p{
+    font-size: 1.5em;
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding :10px 20px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1em;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1{
+    background-color: aliceblue;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: calc(25% - 40px);
+
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+.pagenation{
+    margin: 20px 0px;
+    text-align: center;
+}
+.pagenation a{
+    color:black;
+    background-color: azure;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 2px;
+
+}
+.pagenation a:hover{
+    background-color: lightblue;
+    color: black;
+
+}
+.aboutus{
+    padding: 20px;
+    background-color: azure;
+    text-align: center;
+
+}
+.aboutus img{
+    max-width: 90%;
+    height: 90%;
+    margin-bottom: 20px;
+
+}
+.aboutus p{
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .banner img {
+        height: 500px;
+    }
+    .banner-text h1 {
+        font-size: 3em;
+    }
+    .banner-text p {
+        font-size: 1.2em;
+    }
+    .card1 {
+        width: calc(33.33% - 40px);
+    }
+}
+
+@media (max-width: 992px) {
+    .banner img {
+        height: 400px;
+    }
+    .banner-text h1 {
+        font-size: 2.5em;
+    }
+    .banner-text p {
+        font-size: 1em;
+    }
+    .card1 {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .banner img {
+        height: 300px;
+    }
+    .banner-text h1 {
+        font-size: 2em;
+    }
+    .banner-text p {
+        font-size: 0.8em;
+    }
+    .card1 {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner img {
+        height: 200px;
+    }
+    .banner-text h1 {
+        font-size: 1.5em;
+    }
+    .banner-text p {
+        font-size: 0.6em;
+    }
+    .card1 {
+        width: calc(100% - 20px);
+        margin: 10px 5px;
+    }
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.6em;
+    }
+}
