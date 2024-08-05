@@ -13,7 +13,7 @@ body{
     background-color: #fff;
     position: relative;
     margin: 20px auto; 
-    background-image: url(img.webp),url(images.png);
+    background-image: url(assets/img.webp),url(assets/images.png);
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: right top,left bottom;
